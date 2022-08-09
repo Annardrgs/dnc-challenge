@@ -1,0 +1,120 @@
+*{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Gilroy-Light', sans-serif;
+}
+
+.logo-components{
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo{
+    filter: invert(100%) saturate(0%) brightness(300%) contrast(100%);
+    width: 75%;
+    height: 75%;
+    margin-left: 30px;
+}
+
+.header-buttons-div{
+    display: grid;
+    justify-content: center;
+}
+
+.buttons-header{
+    justify-items: center;
+    cursor: pointer;
+    width: 80px;
+    margin-top: 3px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    gap: 10px;
+}
+
+.enter-text-div{
+    display: grid;
+    justify-items: center;
+    margin-top: 5px;
+}
+
+.enter-title{
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.enter-subtitle{
+    margin: 0;
+    font-size: 20px;
+}
+
+.login-div{
+    gap: 20px;
+}
+
+.email-div{
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.password-div{
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.login-input{
+    width: 400px;
+    height: 35px;
+    background-color: #807c7c;
+    border: none;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.login-buttons-div{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    gap: 10px;
+}
+
+.login-button{
+    margin-left: 25%;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #9078e8;
+    font-size: 20px;
+}
+
+.login-with-provider-button{
+    margin-left: 10%;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #9078e8;
+    font-size: 20px;
+}
